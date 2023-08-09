@@ -47,7 +47,7 @@ public:
     void Update(std::map<std::string, int> report_)
     {
         std::cout << "---------------------------------------------------------" << std::endl;
-        std::cout << "Äîêëàä îò Äåêàíàòà î òåêóùåé îò÷åòíîñòè:" << std::endl;
+        std::cout << "Ð”Ð¾ÐºÐ»Ð°Ð´ Ð¾Ñ‚ Ð”ÐµÐºÐ°Ð½Ð°Ñ‚Ð° Ð¾ Ñ‚ÐµÐºÑƒÑ‰ÐµÐ¹ Ð¾Ñ‚Ñ‡ÐµÑ‚Ð½Ð¾ÑÑ‚Ð¸:" << std::endl;
         std::cout << "---------------------------------------------------------" << std::endl;
         std::map<std::string, int> ::iterator it = report_.begin();
         for (int i = 0; it != report_.end(); it++, i++)
@@ -55,12 +55,12 @@ public:
             
             if (it->second == 1)
             {
-                std::cout << it->first << " ïîäãîòîâèë îò÷åò ïî òåêóùåé óñïåâàåìîñòè." << std::endl << std::endl;
+                std::cout << it->first << " Ð¿Ð¾Ð´Ð³Ð¾Ñ‚Ð¾Ð²Ð¸Ð» Ð¾Ñ‚Ñ‡ÐµÑ‚ Ð¿Ð¾ Ñ‚ÐµÐºÑƒÑ‰ÐµÐ¹ ÑƒÑÐ¿ÐµÐ²Ð°ÐµÐ¼Ð¾ÑÑ‚Ð¸." << std::endl << std::endl;
             }
 
             if (it->second == 0)
             {
-                std::cout << it->first << "  íå ïîäãîòîâèë îò÷åò ïî òåêóùåé óñïåâàåìîñòè." << std::endl << std::endl;
+                std::cout << it->first << "  Ð½Ðµ Ð¿Ð¾Ð´Ð³Ð¾Ñ‚Ð¾Ð²Ð¸Ð» Ð¾Ñ‚Ñ‡ÐµÑ‚ Ð¿Ð¾ Ñ‚ÐµÐºÑƒÑ‰ÐµÐ¹ ÑƒÑÐ¿ÐµÐ²Ð°ÐµÐ¼Ð¾ÑÑ‚Ð¸." << std::endl << std::endl;
             }
 
         }
